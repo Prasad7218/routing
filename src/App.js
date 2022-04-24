@@ -19,6 +19,7 @@ function App() {
       <Route path="/updating" element={<Updating />}/>
       <Route path="/unmounting" element={<Unmounting />}/>
       </Routes>
+      <div>useEffect shown in the console</div>
    </Router>
   );
 }
